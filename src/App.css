@@ -3,22 +3,35 @@ body {
   
 }
 
+a {
+  text-decoration: none;
+}
+a:hover {
+  opacity: 0.6;
+}
+a:visited {
+  color: #6a6b54;
+}
+
 /* ---------------------- NAVBVAR ---------------------- */
 .nav-container {
-  border: 1px solid red;
+  /* border: 1px solid red; */
   background-color: #e4cfc7;
   padding: 10px;
 }
 
-.nav-logo { /* Been trying to center this logo, but can't get it to work rn*/
-  border: 1px solid red;
+.logo-container {
+  /* border: 1px solid red; */
+  display: flex;
+  justify-content: center;
+}
+
+.nav-logo {
+  /* border: 1px solid orange; */
   font-family: "Amatic SC", sans-serif;
   color: #6a6b54;
-  margin: 0 auto; /* Doesn't do anything */
-  /* padding: 10px 0; */
-  text-align: center;
+  padding: 10px 0;
   font-size: 3rem;
-  text-decoration: none;
 }
 .nav-logo:hover {
   color: white;
@@ -29,7 +42,7 @@ body {
   display: flex;
   justify-content: space-between;
   margin: 10px auto;
-  width: 70%;
+  width: 50%;
 }
 
 
