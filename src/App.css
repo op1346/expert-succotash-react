@@ -5,18 +5,23 @@ body {
 
 /* ---------------------- NAVBVAR ---------------------- */
 .nav-container {
+  border: 1px solid red;
   background-color: #e4cfc7;
   padding: 10px;
 }
 
-.nav-logo {
-  /* border: 1px solid red; */
+.nav-logo { /* Been trying to center this logo, but can't get it to work rn*/
+  border: 1px solid red;
   font-family: "Amatic SC", sans-serif;
   color: #6a6b54;
-  margin: 0;
-  padding: 10px 0;
+  margin: 0 auto; /* Doesn't do anything */
+  /* padding: 10px 0; */
   text-align: center;
   font-size: 3rem;
+  text-decoration: none;
+}
+.nav-logo:hover {
+  color: white;
 }
 
 .nav-links {
