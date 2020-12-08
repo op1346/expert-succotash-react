@@ -3,7 +3,7 @@ import { HashRouter, Route, Switch } from "react-router-dom";
 
 import NavBar from "./NavBar";
 import Main from "./Main";
-import Home from "./Home.jsx";
+import Homegoods from "./Homegoods.jsx";
 import Clothes from "./Clothes.jsx";
 import Food from "./Food.jsx";
 
@@ -14,7 +14,7 @@ const App = () => {
     <HashRouter>
         <Route path="/" component={NavBar}/>
       <Switch>
-        <Route path="/home" component={Home}/>
+        <Route path="/homegoods" component={Homegoods}/>
         <Route path="/clothes" component={Clothes}/>
         <Route path="/food" component={Food}/>
         <Route path="/" component={Main} />
