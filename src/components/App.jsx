@@ -7,6 +7,7 @@ import Homegoods from "./Homegoods.jsx";
 import Clothes from "./Clothes.jsx";
 import Food from "./Food.jsx";
 import Beauty from "./Beauty.jsx";
+import CompanyPage from "./CompanyPage";
 import Footer from "./Footer"
 
 import "../App.css"
@@ -21,6 +22,7 @@ function App(){
         <Route path="/clothes" component={Clothes}/>
         <Route path="/food" component={Food}/>
         <Route path="/beauty" component={Beauty}/>
+        <Route path="/:company" component={CompanyPage} />
         <Route path="/" component={Main} />
       </Switch>
 

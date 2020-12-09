@@ -1,9 +1,17 @@
 import React from "react";
+import { useHistory } from "react-router-dom";
 
 function InfoItem(props) {
-  const item = props.item;
+  const { item } = props;
+  let history = useHistory();
+
+  function clickCompany(e) {
+    const company = e.currentTarget.id;
+    history.push(`/${company}`)
+  }
+
   return(
-   <div className="info-item-container">
+   <div onClick={clickCompany} className="info-item-container" id={item.companyName}>
     <a href={item.url} target="_blank" rel="noopener noreferrer">{item.companyName}</a>
     <p className="company-desc">{item.desc}</p>
   </div>
