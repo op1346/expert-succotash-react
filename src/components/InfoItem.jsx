@@ -13,7 +13,10 @@ function InfoItem(props) {
   return(
    <div onClick={clickCompany} className="info-item-container" id={item.companyName}>
     <a href={item.url} target="_blank" rel="noopener noreferrer">{item.companyName}</a>
-    <p className="company-desc">{item.desc}</p>
+    {item.desc.length >= 150 ? 
+      <p className="company-desc">{item.desc.substring(0, 150)}...</p> :
+      <p className="company-desc">{item.desc}</p> }
+    
   </div>
   )
 }
