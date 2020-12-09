@@ -7,8 +7,11 @@ const data = [
       url: "link here"
     },
     {
-      companyName: "Example2",
-      category: "clothing"
+      companyName: "Pact",
+      category: "clothing",
+      desc: "",
+      subCategories: [],
+      url: "https://wearpact.com"
     },
   ];
 
