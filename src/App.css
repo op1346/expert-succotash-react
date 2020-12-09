@@ -4,6 +4,7 @@ body {
 }
 
 a {
+  color: #6a6b54;
   text-decoration: none;
 }
 a:hover {
@@ -58,4 +59,75 @@ a:visited {
   font-size: 2rem;
 }
 
+
+/* ---------------------- COMPANY ITEM ---------------------- */
+
+.company-container {
+  /* border: 1px solid red; */
+  columns: 3;
+}
+
+.info-item-container {
+  cursor: pointer;
+  border-radius: 4px;
+  background-color:#f4eeed;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 25px;
+  padding: 5px 10px;
+  flex: 1;
+
+  -webkit-column-break-inside: avoid-column; 
+  page-break-inside: avoid-column;
+  break-inside: avoid-column;
+}
+.info-item-container:nth-child(2n) {
+  background-color: #e9dfca;
+}
+.info-item-container:nth-child(3n) {
+  background-color: #caccb1;
+}
+.info-item-container:hover {
+  box-shadow: -5px 5px 2px #dadada;
+  transition-duration: 0.3s;
+}
+
+.company-desc {
+  font-family: 'Open Sans', sans-serif;
+  font-size: 1rem;
+  text-align: center;
+}
+
+.sub-nav {
+  border: 1px solid red;
+  display: flex;
+  justify-content: space-between;
+  width: 60%;
+  margin: 20px auto;
+}
+
 /* ---------------------- FOOTER ---------------------- */
+
+
+
+
+
+
+
+@media screen and (max-width: 800px) {
+  .nav-container {
+    display: flex;
+    align-items: center;
+  }
+  .nav-links {
+    font-size: 1.5rem;
+    margin-right: 0;
+    width: 60%;
+  }
+
+  .company-container {
+    columns: 1;
+  }
+}

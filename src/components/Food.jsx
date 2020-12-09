@@ -1,6 +1,7 @@
 import React from "react";
+import CompanyInfo from "./CompanyInfo";
 
-import data from "../data/data";
+
 
 function Food() {
   return(
@@ -9,13 +10,7 @@ function Food() {
 
       <h2>Find your local farmer's market <a href="https://www.ams.usda.gov/local-food-directories/farmersmarkets">here</a>.</h2>
 
-      {data.map(item => (
-        item.category === "food" &&
-        <div>
-          <a href={item.url}>{item.companyName}</a>
-          <p>{item.desc}</p>
-      </div>
-      ))}
+      <CompanyInfo category="food"/>
     </div>
   )
 }
