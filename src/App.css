@@ -63,8 +63,9 @@ a:visited {
 /* ---------------------- COMPANY ITEM ---------------------- */
 
 .company-container {
-  /* border: 1px solid red; */
+  border: 1px solid red;
   columns: 3;
+  margin: 0 auto;
 }
 
 .info-item-container {
