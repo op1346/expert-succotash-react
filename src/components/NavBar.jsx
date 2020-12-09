@@ -8,9 +8,10 @@ function NavBar() {
         <Link to="/" className="nav-logo">Eco Shop</Link>
       </div>
       <div className="nav-links">
-        <Link to="/home">Home</Link>
+        <Link to="/homegoods">Homegoods</Link>
         <Link to="/food">Food</Link>
         <Link to="/clothes">Clothes</Link>
+        <Link to="/beauty">Beauty</Link>
       </div>
     </div>
   )

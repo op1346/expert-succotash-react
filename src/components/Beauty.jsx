@@ -1,11 +1,11 @@
 import React from "react";
 
-function Clothes() {
+function Beauty() {
   return(
     <div className="main-container">
-      <h1>Clothes</h1>
+      <h1>Beauty</h1>
     </div>
   )
 };
 
-export default Clothes;
+export default Beauty;
