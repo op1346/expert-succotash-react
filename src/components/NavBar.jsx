@@ -11,6 +11,7 @@ function NavBar() {
         <Link to="/homegoods">Homegoods</Link>
         <Link to="/food">Food</Link>
         <Link to="/clothes">Clothes</Link>
+        <Link to="/beauty">Beauty</Link>
       </div>
     </div>
   )

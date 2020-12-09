@@ -1,11 +1,11 @@
 import React from "react";
 
-function Homegoods() {
+function Beauty() {
   return(
     <div className="main-container">
-      <h1>Homegoods</h1>
+      <h1>Beauty</h1>
     </div>
   )
 };
 
-export default Homegoods;
+export default Beauty;

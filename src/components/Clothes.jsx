@@ -8,4 +8,4 @@ function Clothes() {
   )
 };
 
-export default Clothes
+export default Clothes;

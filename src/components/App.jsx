@@ -6,6 +6,7 @@ import Main from "./Main";
 import Homegoods from "./Homegoods.jsx";
 import Clothes from "./Clothes.jsx";
 import Food from "./Food.jsx";
+import Beauty from "./Beauty.jsx";
 
 import "../App.css"
 
@@ -17,6 +18,7 @@ const App = () => {
         <Route path="/homegoods" component={Homegoods}/>
         <Route path="/clothes" component={Clothes}/>
         <Route path="/food" component={Food}/>
+        <Route path="/beauty" component={Beauty}/>
         <Route path="/" component={Main} />
       </Switch>
     </HashRouter>
