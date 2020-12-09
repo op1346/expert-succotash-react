@@ -8,7 +8,7 @@ function NavBar() {
         <Link to="/" className="nav-logo">Eco Shop</Link>
       </div>
       <div className="nav-links">
-        <Link to="/home">Homegoods</Link>
+        <Link to="/homegoods">Homegoods</Link>
         <Link to="/food">Food</Link>
         <Link to="/clothes">Clothes</Link>
       </div>
