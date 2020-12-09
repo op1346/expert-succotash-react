@@ -1,0 +1,16 @@
+{
+  "companies":
+  [
+    {
+      "id": 0,
+      "company_name": "Pact",
+      "categories": ["clothes"],
+      "link": "https://wearpact.com/",
+      "image_urls":
+    },
+
+    {
+
+    }
+  ]
+}
