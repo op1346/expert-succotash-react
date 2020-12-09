@@ -2,7 +2,7 @@ const data = [
     {
       companyName: "Blue Nest Beef",
       category: ["food"],
-      desc: "'Better beef with a bigger purpose'",
+      desc: "'Better beef with a bigger purpose. Of course our beef is 100% grassfed, but it’s more than that.  '",
       subCategories: ["ACR certified", "100% grassfed", "American"],
       url: "https://bluenestbeef.com/"
     },

@@ -52,7 +52,7 @@ a:visited {
 
 .main-container {
   /* background-color: #f4eeed; */
-  /* margin: 0 10px; */
+  margin-bottom: 20px;
   padding: 0 20px;
   font-family: "Amatic SC", sans-serif;
   font-size: 2rem;
@@ -140,8 +140,11 @@ a:visited {
 
 /* ---------------------- FOOTER ---------------------- */
 
-
-
+.footer {
+  border: 1px solid red;
+  
+  width: 100%;
+}
 
 
 
