@@ -83,6 +83,35 @@ const data = [
       subCategories: ["women"],
       url: "https://www.cuyana.com/"
     },
+    {
+      companyName: "Amour Vert",
+      category: ["clothing"],
+      desc: "'Our sustainable practices address all aspects of our business operations and the full lifecycle of the garment: the fibers and production processes used, how workers are treated, how it gets to the consumer, and finally—whether it can be recycled or is forced into a landfill.'",
+      subCategories: ["women"],
+      url: "https://amourvert.com/"
+    },
+    {
+      companyName: "Threads 4 Thought",
+      category: ["clothing"],
+      desc: "'We founded Threads 4 Thought in 2006, with the understanding that every time you buy a product or support a brand, you’re casting a vote with your wallet. These choices (or votes) determine the spread and success of each brand’s ethical and moral standards. With that in mind, we decided to create a product that leaves an innately smaller impact on our environment, supports in-need communities, and assists in changing the narrative and understanding of ethical standards within the fashion industry.'",
+      subCategories: ["women", "men", "kids"],
+      url: "https://www.threads4thought.com/"
+    },
+    {
+      companyName: "Yay For Earth",
+      category: ["beauty"],
+      desc: "'YayForEarth's mission is simply all in the title. To give props to an earth that gives us EVERYTHING.​ Every single thing we purchase and invite into our lives is sourced from nature and our planet earth deserves all the credit.​'",
+      subCategories: [],
+      url: "https://yayforearth.com/"
+    },
+    {
+      companyName: "Loli",
+      category: ["beauty"],
+      desc: `'The inspiration for LOLI or ‘Living Organic Loving Ingredients’, came to me the moment I realized the beauty industry needs to be stirred up. Peel back a beauty label far enough, and you’ll see that it’s lost its connection to what really nourishes us – food – and in its place is a blend of 95% water, preservatives and synthetics. 
+              \n But it wasn’t always this way. From Cleopatra to the Arawak Indians of Jamaica’s Blue Mountains (my homeland), powerful beauty remedies began with superfood ingredients, freshly harvested and customized. It’s time to bring this wisdom back. Our products start with the purest, most potent, food-grade ingredients, hand-selected and responsibly sourced. Let your intuition guide you. Blend a beauty ritual all your own. Together let’s ‘stir up beauty’ and make a conscious change.'`,
+      subCategories: [],
+      url: "https://lolibeauty.com/"
+    },
   ];
 
 export default data;

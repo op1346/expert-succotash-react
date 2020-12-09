@@ -62,9 +62,12 @@ a:visited {
 /* ---------------------- COMPANY ITEM ---------------------- */
 
 .company-container {
-  /* border: 1px solid red; */
-  columns: 3;
+  border: 1px solid red;
+  /* display: flex;
+  flex-wrap: wrap;
+  justify-content: center; */
   margin: 0 auto;
+  columns: 3;
 }
 
 .info-item-container {
@@ -75,10 +78,11 @@ a:visited {
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  margin-bottom: 25px;
-  padding: 5px 10px;
-  flex: 1;
+  /* margin: 10px; */
+  padding: 15px 10px;
+  /* width: 30%; */
 
+  margin-bottom: 15px;
   -webkit-column-break-inside: avoid-column; 
   page-break-inside: avoid-column;
   break-inside: avoid-column;
@@ -89,6 +93,9 @@ a:visited {
 .info-item-container:nth-child(3n) {
   background-color: #caccb1;
 }
+/* .info-item-container:nth-child(5n) {
+  background-color: #e4cfc7;
+} */
 .info-item-container:hover {
   box-shadow: -5px 5px 2px #dadada;
   transition-duration: 0.3s;
@@ -163,6 +170,16 @@ a:visited {
   }
 
   .company-container {
+    display: block;
     columns: 1;
   }
+
+  .info-item-container {
+    margin: 20px auto;
+    width: 80%;
+  }
+}
+
+@media screen and (max-width: 800px) {
+
 }
