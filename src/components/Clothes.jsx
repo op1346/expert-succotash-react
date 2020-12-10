@@ -15,12 +15,14 @@ function Clothes() {
   return(
     <div className="main-container">
       <h1>Clothes</h1>
+      <hr/>
       <div className="sub-nav">
-        <input onClick={handleClick} type="button" value="all"/>
-        <input onClick={handleClick} type="button" value="women"/>
-        <input onClick={handleClick} type="button" value="men"/>
-        <input onClick={handleClick} type="button" value="kids"/>
+        <input onClick={handleClick} className="sub-nav-btn" type="button" value="all"/>
+        <input onClick={handleClick} className="sub-nav-btn" type="button" value="women"/>
+        <input onClick={handleClick} className="sub-nav-btn" type="button" value="men"/>
+        <input onClick={handleClick} className="sub-nav-btn" type="button" value="kids"/>
       </div>
+      <hr/>
       <CompanyInfo category="clothing" sub={subCat}/>
     </div>
   )

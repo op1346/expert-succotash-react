@@ -13,6 +13,10 @@ a:visited {
   color: #6a6b54;
 }
 
+hr {
+  border-top: 1px solid #6a6b54;
+}
+
 /* ---------------------- NAVBVAR ---------------------- */
 .nav-container {
   /* border: 1px solid red; */
@@ -62,7 +66,7 @@ a:visited {
 /* ---------------------- COMPANY ITEM ---------------------- */
 
 .company-container {
-  border: 1px solid red;
+  /* border: 1px solid red; */
   /* display: flex;
   flex-wrap: wrap;
   justify-content: center; */
@@ -108,11 +112,29 @@ a:visited {
 }
 
 .sub-nav {
-  border: 1px solid red;
+  /* border: 1px solid red; */
+  
   display: flex;
   justify-content: space-between;
-  width: 60%;
   margin: 20px auto;
+  width: 60%;
+}
+
+.sub-nav-btn {
+  cursor: pointer;
+  border: none;
+  border: 1px solid rgba(0, 0, 0, 0);
+  background: none;
+  padding: 10px 25px;
+}
+.sub-nav-btn:hover {
+  border: 1px solid #6a6b54;
+  box-shadow: 3px 3px 2px #dadada;
+  transition-duration: 0.3s;
+}
+.sub-nav-btn:focus {
+  outline: none;
+  border: 1px solid #6a6b54;
 }
 
 
