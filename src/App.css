@@ -60,6 +60,7 @@ hr {
   padding: 0 20px;
   font-family: "Amatic SC", sans-serif;
   font-size: 2rem;
+  text-align: center;
 }
 
 
@@ -87,7 +88,7 @@ hr {
   /* width: 30%; */
 
   margin-bottom: 15px;
-  -webkit-column-break-inside: avoid-column; 
+  -webkit-column-break-inside: avoid-column;
   page-break-inside: avoid-column;
   break-inside: avoid-column;
 }
@@ -113,7 +114,7 @@ hr {
 
 .sub-nav {
   /* border: 1px solid red; */
-  
+
   display: flex;
   justify-content: space-between;
   margin: 20px auto;
@@ -163,16 +164,14 @@ hr {
 }
 
 .company-page-container > p {
-  
+
   text-align: center;
 }
 
 /* ---------------------- FOOTER ---------------------- */
 
 .footer {
-  border: 1px solid red;
-  
-  width: 100%;
+  text-align: center;
 }
 
 
