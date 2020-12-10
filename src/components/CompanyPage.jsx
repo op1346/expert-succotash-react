@@ -2,7 +2,7 @@ import React from "react";
 import data from "../data/data";
 
 class CompanyPage extends React.Component {
-  
+
   render() {
     const companyName = this.props.match.params.company;
     const company = data.filter(company => company.companyName === companyName)[0];
@@ -18,4 +18,4 @@ class CompanyPage extends React.Component {
   }
 };
 
-export default CompanyPage
+export default CompanyPage;
