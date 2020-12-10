@@ -2,7 +2,7 @@ const data = [
     {
       companyName: "Blue Nest Beef",
       category: ["food"],
-      desc: "'Better beef with a bigger purpose. Of course our beef is 100% grassfed, but it’s more than that.  '",
+      desc: "'Better beef with a bigger purpose. Of course our beef is 100% grassfed, but it’s more than that.'",
       subCategories: ["ACR certified", "100% grassfed", "American"],
       url: "https://bluenestbeef.com/"
     },
@@ -72,7 +72,7 @@ const data = [
     {
       companyName: "West Elm",
       category: ["homeGoods"],
-      desc: "'More than half of our wood furniture is sustainably sourced. Fair trade certified. Locally made, organic, handcrafted, and certified non-toxic products. '",
+      desc: "'More than half of our wood furniture is sustainably sourced. Fair trade certified. Locally made, organic, handcrafted, and certified non-toxic products.'",
       subCategories: ["organic", "sustainable sourcing", "fair trade certified", "donate sales"],
       url: "https://www.westelm.com/"
     },
@@ -107,10 +107,24 @@ const data = [
     {
       companyName: "Loli",
       category: ["beauty"],
-      desc: `'The inspiration for LOLI or ‘Living Organic Loving Ingredients’, came to me the moment I realized the beauty industry needs to be stirred up. Peel back a beauty label far enough, and you’ll see that it’s lost its connection to what really nourishes us – food – and in its place is a blend of 95% water, preservatives and synthetics. 
+      desc: `'The inspiration for LOLI or ‘Living Organic Loving Ingredients’, came to me the moment I realized the beauty industry needs to be stirred up. Peel back a beauty label far enough, and you’ll see that it’s lost its connection to what really nourishes us – food – and in its place is a blend of 95% water, preservatives and synthetics.
               \n But it wasn’t always this way. From Cleopatra to the Arawak Indians of Jamaica’s Blue Mountains (my homeland), powerful beauty remedies began with superfood ingredients, freshly harvested and customized. It’s time to bring this wisdom back. Our products start with the purest, most potent, food-grade ingredients, hand-selected and responsibly sourced. Let your intuition guide you. Blend a beauty ritual all your own. Together let’s ‘stir up beauty’ and make a conscious change.'`,
       subCategories: [],
       url: "https://lolibeauty.com/"
+    },
+    {
+      companyName: "Sweet Earth Foods",
+      category: ["food"],
+      desc: `We nourish lives by making smart food choices that honor and sustain the land, cultivate curious mind and palate, and sustain a healthy body.`,
+      subCategories: [],
+      url: "https://www.sweetearthfoods.com/"
+    },
+    {
+      companyName: "Organic Valley",
+      category: ["food"],
+      desc: `Socially, economically, environmentally: sustainability never settles. Bringing the best organic products to market in ways that do the most good.`,
+      subCategories: [],
+      url: "https://www.organicvalley.coop/"
     },
   ];
 

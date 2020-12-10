@@ -113,8 +113,6 @@ hr {
 }
 
 .sub-nav {
-  /* border: 1px solid red; */
-
   display: flex;
   justify-content: space-between;
   margin: 20px auto;
@@ -127,6 +125,8 @@ hr {
   border: 1px solid rgba(0, 0, 0, 0);
   background: none;
   padding: 10px 25px;
+  font-family: "Amatic SC", sans-serif;
+  font-size: x-large;
 }
 .sub-nav-btn:hover {
   border: 1px solid #6a6b54;

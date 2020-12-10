@@ -12,9 +12,10 @@ function NavBar() {
         <Link to="/food">Food</Link>
         <Link to="/clothes">Clothes</Link>
         <Link to="/beauty">Beauty</Link>
+        <Link to="/about">About</Link>
       </div>
     </div>
   )
 };
 
-export default NavBar
+export default NavBar;
