@@ -3,11 +3,10 @@ import resourcesData from '../data/resourcesData';
 
 function Main() {
   return(
-    <div>
-      <div className="main-container">
+    <div className="main-container">
 
-        <h4>We did the hard part for you, and collected a bunch of resources and companies that are committed to sustainability.</h4>
-      </div>
+      <h4>We did the hard part for you, and collected a bunch of resources and companies that are committed to sustainability.</h4>
+
       <div className="company-container">
         {resourcesData.map(item => (
           <div className="info-item-container" id={item.resourceName}>
