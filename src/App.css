@@ -63,10 +63,18 @@ hr {
   /* background-color: #f4eeed; */
   padding: 0 20px;
   padding-bottom: 8rem;
-  font-family: "Amatic SC", sans-serif;
   font-size: 2rem;
   text-align: center;
-  color: #556b2f;
+  color: #555555;
+}
+
+.page-title {
+  color: #6a6b54;
+  font-family: "Amatic SC", sans-serif;
+}
+
+.sub-title-text {
+  font-size: 1.5rem;
 }
 
 

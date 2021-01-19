@@ -14,7 +14,7 @@ function Clothes() {
 
   return(
     <div className="main-container">
-      <h1>Clothes</h1>
+      <h1 className="page-title">Clothes</h1>
       <div className="sub-nav">
         <input onClick={handleClick} className="sub-nav-btn" type="button" value="all"/>
         <input onClick={handleClick} className="sub-nav-btn" type="button" value="women"/>
