@@ -12,6 +12,7 @@ const clientId = "YOUR_CLIENT_ID.apps.googleusercontent.com";
 function SignInSignup(props) {
   const email = useFormInput('');
   const password = useFormInput('');
+  const [login, setLogin] = useState(false);
   const [error, setError] = useState(null);
   const [loading, setLoading] = useState(false);
 
@@ -47,27 +48,34 @@ function SignInSignup(props) {
   });
 
   return (
-    <div className="login">
-      Login<br /><br />
-      <div>
-        Email<br />
-        <input type="text" {...email} autoComplete="new-password" />
+    <div>
+      {login ?
+        <div className="login">
+        Login<br /><br />
+        <div>
+          Email<br />
+          <input type="text" {...email} autoComplete="new-password" />
+        </div>
+        <div style={{ marginTop: 10 }}>
+          Password<br />
+          <input type="password" {...password} autoComplete="new-password" />
+        </div>
+        {error && <> <small style={{ color: 'red' }}>{error}</small><br /></>}<br />
+        <Button variant="contained" value={loading ? 'Loading...': 'Login'} onClick={handleLogin} disabled={loading}>Log in</Button><br />
+        <Button variant="contained" onClick={signIn}>
+        <span className="buttonText">Sign in with Google</span>
+      </Button>
+        <div className="password-reset">
+          <Link to='/password-reset'>Forgot your password?</Link>
+        </div>
+        <div className="no-account">
+          Don't have an account? <Link to='/signup'>Register Now</Link>
+        </div>
       </div>
-      <div style={{ marginTop: 10 }}>
-        Password<br />
-        <input type="password" {...password} autoComplete="new-password" />
-      </div>
-      {error && <> <small style={{ color: 'red' }}>{error}</small><br /></>}<br />
-      <Button variant="contained" value={loading ? 'Loading...': 'Login'} onClick={handleLogin} disabled={loading}>Log in</Button><br />
-      <Button variant="contained" onClick={signIn}>
-      <span className="buttonText">Sign in with Google</span>
-    </Button>
-      <div className="password-reset">
-        <Link to='/password-reset'>Forgot your password?</Link>
-      </div>
-      <div className="no-account">
-        Don't have an account? <Link to='/signup'>Register Now</Link>
-      </div>
+      :
+      <div className="sign-up">
+        Sign Up
+      </div>}
     </div>
   );
 }
