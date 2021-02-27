@@ -25,6 +25,8 @@ hr {
 /* ---------------------- NAVBVAR ---------------------- */
 .nav-container {
   /* border: 1px solid red; */
+  display: flex;
+  flex-direction: row;
   background-color: #e4cfc7;
   padding: 10px;
 }
@@ -32,16 +34,14 @@ hr {
 .logo-container {
   /* border: 1px solid red; */
   display: flex;
+  align-items: flex-start;
   justify-content: center;
-}
-
-.nav-logo {
-  /* border: 1px solid orange; */
   font-family: "Amatic SC", sans-serif;
   color: #6a6b54;
   padding: 10px 0;
   font-size: 3rem;
 }
+
 .nav-logo:hover {
   color: white;
 }
@@ -63,18 +63,10 @@ hr {
   /* background-color: #f4eeed; */
   padding: 0 20px;
   padding-bottom: 8rem;
+  font-family: "Amatic SC", sans-serif;
   font-size: 2rem;
   text-align: center;
-  color: #555555;
-}
-
-.page-title {
-  color: #6a6b54;
-  font-family: "Amatic SC", sans-serif;
-}
-
-.sub-title-text {
-  font-size: 1.5rem;
+  color: #556b2f;
 }
 
 
